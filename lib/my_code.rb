@@ -13,5 +13,7 @@ def map_to_double(array)
   array.size.times do |i|
     array[i] *= 2 
   end
+  return array
 end
 
+def 
