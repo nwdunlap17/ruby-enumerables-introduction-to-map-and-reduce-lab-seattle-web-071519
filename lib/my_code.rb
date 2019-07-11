@@ -16,4 +16,17 @@ def map_to_double(array)
   return array
 end
 
-def 
+def map_to_square(array)
+  array.size.times do |i|
+    array[i] *= array[i] 
+  end
+  return array
+end
+
+def reduce_to_total(array)
+  sum
+  array.size.times do |i|
+    array[i] *= 2 
+  end
+  return array
+end
