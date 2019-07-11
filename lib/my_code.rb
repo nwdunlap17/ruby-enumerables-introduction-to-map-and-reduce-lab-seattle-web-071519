@@ -27,5 +27,14 @@ def reduce_to_total(array, start = 0)
   array.size.times do |i|
     start += array[i]
   end
-  return array
+  return start
+end
+
+def reduce_to_all_true(array)
+  array.size.times do |i|
+    if !!!array[i]
+      return false
+    end
+  end
+  return true
 end
