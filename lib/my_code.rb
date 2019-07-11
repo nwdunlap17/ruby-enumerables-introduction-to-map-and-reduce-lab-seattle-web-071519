@@ -8,3 +8,10 @@ end
 def map_to_no_change(array)
   return array
 end
+
+def map_to_double(array)
+  array.size.times do |i|
+    array[i] *= 2 
+  end
+end
+
